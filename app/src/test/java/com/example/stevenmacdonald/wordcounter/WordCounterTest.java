@@ -28,6 +28,6 @@ public class WordCounterTest {
 
     @Test
     public void checkingWordCount(){
-        assertEquals(4, user_input.wordCount(user_input.getUserinput()));
+        assertEquals(4, user_input.wordCount());
     }
 }

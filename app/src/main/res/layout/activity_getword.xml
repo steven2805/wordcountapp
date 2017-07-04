@@ -14,25 +14,27 @@
         android:hint="@string/Word"
         android:inputType="textPersonName"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="175dp"
-        android:layout_marginRight="84dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginRight="74dp"
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/submit_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="52dp"
+        android:onClick="onSubmitButtonClicked"
         android:text="Submit"
         app:layout_constraintTop_toBottomOf="@+id/input_text"
-        tools:layout_editor_absoluteX="166dp" />
+        android:layout_marginRight="148dp"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <TextView
         android:id="@+id/output_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="46dp"
-        android:text="TextView"
+        android:layout_marginBottom="47dp"
+        android:layout_marginRight="163dp"
         app:layout_constraintBottom_toTopOf="@+id/input_text"
-        tools:layout_editor_absoluteX="163dp" />
+        app:layout_constraintRight_toRightOf="parent" />
 </android.support.constraint.ConstraintLayout>

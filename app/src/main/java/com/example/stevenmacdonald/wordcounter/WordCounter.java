@@ -22,12 +22,9 @@ public class WordCounter {
         this.user_input = user_input;
     }
 
-    public int wordCount(String user_input){
-
-        for(String word: user_input.split(" ") ) counter++;
-
-
+    public int wordCount(){
+        for(String word: this.user_input.split(" ") ) counter++;
         return counter;
-
     }
+
 }
